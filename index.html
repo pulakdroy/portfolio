@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Portfolio Page Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+        
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">WORK</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+
+         <div class="text-box">
+             <h1>Hi! I'm Pulak D Roy</h1>
+             <p>I'm a web developer. I work with HTML,CSS and<br> currently learning Python.</p> 
+             <a href="" class="hero-btn ">Visit Us To Know More</a>
+        </section>
+        
+
+        <!---------Services--------->
+
+
+        <section class="service">
+            <h1>Our Services</h1>
+            <p>Taking web experiences to a new level.</p>
+
+
+            <div class="row">
+                <div class="service-col">
+                    <h3>Web Design</h3>
+                    <P>We can design your website to take your brand into a next level and put you ahead of time.A website can define many things about a brand and so does we put our everything to make that happen.</P>
+                </div>
+                <div class="service-col">
+                    <h3>Data Analytics</h3>
+                    <P>Data is the oil of the digital economy, the more you mine the more you can fuel your brand. With enormous amount of user data developed from your brand’s presence in online and offliine, we can turn them into actionable insights. With proper analytics and reporting generated from Analyzen team you can get an in depth understanding of how your brand is faring as well as reaching the perfect audience who feel more affinity to your brand.</P>
+                    
+                </div>
+                <div class="service-col">
+                    <h3>Web Development</h3>
+                    <p>We can develope your website to get the most of it.Having a well developed website can put you ahead of others and can grow your brand like nothing else.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-----------   preview ------------------>
+        <section class="preview">
+            <h1>Preview</h1>
+            <P>Our preview dialouge..</P>
+        
+
+            <div class="row">
+               <div class="preview-col">
+                   <img src="images/web design.jpg">
+                   <div class="layer">
+                         <h3>Web Design</h3>
+                   </div>
+
+               </div>
+               <div class="preview-col">
+                   <img src="images/data.jpg">
+                   <div class="layer">
+                       <h3>Data Analytics</h3>
+
+                   </div>
+
+               </div>
+               <div class="preview-col">
+                   <img src="images/deve.gif">
+                   <div class="layer">
+                       <h3>Web Development</h3>
+
+                   </div>
+
+               </div>
+            </div>
+        </section>
+
+
+        <!----------- Our Clients - ----------->
+
+        
+
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!----------JavaScript for Toggle Menu--------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showmenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hidemenu(){
+                navLinks.style.right = "-200px";
+            }
+        
+            
+        </script>
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
