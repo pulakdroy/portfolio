@@ -291,23 +291,19 @@ h1{
     padding-top: 50px;
     scroll-behavior: smooth;
 }
-.work-col {
-  flex-basis: 48%;        /* Both images take almost half the space, with gap! */
-  height: 220px;          /* Fixed height for all preview boxes */
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 0 40px rgba(72, 84, 93, 0.7);
-  margin-bottom: 2rem;
-  /* Optional: Add margin/gap as needed */
+.work-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 40px 0px rgba(72, 84, 93);
 }
-
-.work-col img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;      /* Image covers its box, cropping as needed */
-  display: block;
+.work-col img{
+    width: 110%;
+    height: 120%;
+    display: block;
 }
-
 .layer{
     background: transparent;
     height: 100%;
@@ -338,11 +334,10 @@ h1{
 
 }
 .work .row {
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    gap: 32px;  
-    margin-top: 5%;
-
+    gap: 30px; 
 }
 .work-col{
     flex-basis: 31%;
