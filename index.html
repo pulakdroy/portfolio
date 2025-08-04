@@ -2,48 +2,55 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <title>Portfolio Page Design</title>
+        <title>Pulak Deb Roy</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
-        
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.39/build/spline-viewer.js"></script>
+
     </head>
     <body>
+        <div class="background-wrapper">
+            <spline-viewer loading-anim-type="spinner-big-dark" class="background" url="https://prod.spline.design/F3wll6agg7Qq9ewa/scene.splinecode"></spline-viewer>
+        </div>
+
         <section class="header">
             <nav>
-                <a href="index.html"><img src="images/logo.png"></a>
+                <a href="index.html"><img src="images/p2.png"></a> 
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hidemenu()"></i>
                     <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">WORK</a></li>
-                        <li><a href="">ABOUT US</a></li>
-                        <li><a href="">CONTACT</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#work">Projects</a></li>
+                        <li><a href="#aboutme">About me</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="showmenu()"></i>
             </nav>
 
-         <div class="text-box">
-             <h1>Hi! I'm Pulak D Roy</h1>
-             <p>Currently persuing my Bachelor in Computer Science and Engineering. I work with HTML,CSS and<br> currently learning Python.</p> 
-             <a href="" class="hero-btn ">Visit Us To Know More</a>
+            <div class="text-box">
+                <h1 class="spotlight-text">Hi, I'm Pulak D Roy</h1>
+                <br>
+                <p class="spotlight-text">I am a passionate CS student at BRACU, driven by a curiosity for technology and a love for writing.<br> My journey involves delving into the world of computer science, exploring new ideas, and sharing my insights with the community.</p>
+
+
+           <!-- <a href="" class="hero-btn ">Visit Us To Know More</a>  -->
         </section>
         
 
         <!---------Services--------->
-
-
         <section class="service">
-            <h1>Services</h1>
-            <p>Taking web experiences to a new level.</p>
+            <h1 class="spotlight-text">Interested in</h1>
+            <br>
+            <p class="spotlight-text">Things I like to work on and leanr about..</p>
 
 
             <div class="row">
                 <div class="service-col">
-                    <h3>Web Design</h3>
+                    <h3>Cyber Security</h3>
                     <P>We can design your website to take your brand into a next level and put you ahead of time.A website can define many things about a brand and so does we put our everything to make that happen.</P>
                 </div>
                 <div class="service-col">
@@ -52,52 +59,138 @@
                     
                 </div>
                 <div class="service-col">
-                    <h3>Web Development</h3>
+                    <h3>SQA</h3>
                     <p>We can develope your website to get the most of it.Having a well developed website can put you ahead of others and can grow your brand like nothing else.</p>
                 </div>
             </div>
         </section>
         
 
+        <!---------Education--------->
+        <section class="education" id="education">
+            <h1 class="spotlight-text">Education</h1>
+            
+
+
+            <div class="row">
+                <div class="education-col">
+                    <h2>Bachelor of Computer Science</h2>
+                    <p>October 2021 - September 2025</p>
+                    <h3>BRAC University, Dhaka</h3>
+                    <P>We can design your website to take your brand into a next level and put you ahead of time.A website can define many things about a brand and so does we put our everything to make that happen.</P>
+
+            </div>
+        </section>
+
+
         <!-----------   preview ------------------>
-        <section class="preview">
-            <h1>Preview</h1>
-            <P>Our preview dialouge..</P>
+        <section class="work" id="work">
+            <h1 class="spotlight-text">Projects</h1>
+            <br>
+            <P class="spotlight-text">What I have done so far..</P>
         
 
             <div class="row">
-               <div class="preview-col">
-                   <img src="images/web design.jpg">
+               <div class="work-col">
+                   <img src="images/visual-icons (1).gif">
                    <div class="layer">
-                         <h3>Web Design</h3>
+                         <h3>Personal Projects</h3>
                    </div>
 
                </div>
-               <div class="preview-col">
-                   <img src="images/data.jpg">
+               <div class="work-col">
+                   <img src="images/ai-data-model-interaction.gif">
                    <div class="layer">
-                       <h3>Data Analytics</h3>
+                       <h3>Thesis Research</h3>
 
                    </div>
 
                </div>
-               <div class="preview-col">
-                   <img src="images/deve.gif">
+               <div class="work-col">
+                   <img src="images/particles-rocket.gif">
                    <div class="layer">
-                       <h3>Web Development</h3>
+                       <h3>Group Work</h3>
 
                    </div>
 
                </div>
             </div>
         </section>
+        <br>
+        <br>
 
 
-        <!----------- Our Clients - ----------->
-        
+        <!----------- About me ------------>
+        <section class="aboutme" id="aboutme"> 
+            <h1 class="spotlight-text">About me</h1>
+            <div class="row">
+                <div class="aboutme-card">
+                    <div class="aboutme-photo">
+                        <img src="/images/batman.png" alt="batman">
+                    </div>
+                    <div class="aboutme-content">
+                    <!--    <h2>I am Pulak Deb Roy</h2> -->
+                        <p>
+                            I am a passionate CS student at BRACU, driven by curiosity for technology
+                            and a love for writing.
+                            My journey involves delving into the world of computer science, exploring
+                            new ideas, and sharing my insights with the community.
+                        </p>
+                        <ul>
+                            <li>Over a year hands-on experience in <span class="highlight"> Front-End and Web applications</span>, spanning academic and freelance.</li>
+                            <li>Successfully completed <span class="highlight"> projects</span> with a focus on quality and performance.</li>
+                            <li>Active member of university clubs such as <span class="highlight">ROBU, Chess club</span> and hackathons.</li>
+                        </ul>
+                        <div class="abouotme-info">
+                            <span>Current Position: <b>Final year Student</b></span>
+                            <br>
+                            <span>University: <b>BRAC University</b></span>
+                            <br>
+                            <span>E-mail: <a href="mailto:pulakdr@gmail.com">pulakdr@gmail.com</a></span>
+                        </div>
+                        <a href="/Doc/Pulak Deb Roy.pdf" class="aboutme-btn" target="_blank">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!------------- Contact me -------------->
+        <section class="contact" id="contact">
+            <h1 class="spotlight-text">Contact me</h1>
+            <br>
+            <br>
 
             
-        
+            <div class="row">
+                <div class="contact-col">
+                    <a href="https://g.dev/Pulakdroy" target="_blank" rel="noopener noreferrer"><img src="images/download.png" alt="Google Developer"></a>
+                </div>
+
+                <div class="contact-col">
+                    <a href="https://github.com/pulakdroy" target="_blank" rel="noopener noreferrer"><img src="images/download (1).png" alt="Github"></a>
+                </div>
+
+                <div class="contact-col">
+                    <a href="https://www.linkedin.com/in/pulak-deb-roy-29170a122/" target="_blank" rel="noopener noreferrer"><img src="images/download (2).png" alt="linkedin"></a>
+                </div>
+
+                <div class="contact-col">
+                    <a href="https://bmc.link/pulakdroy" target="_blank" rel="noopener noreferrer"><img src="images/bmc_icon_black.png" alt="buymeacoffee"></a>
+                </div>
+
+                <div class="contact-col">
+                    <a href="https://www.kaggle.com/pulakdroy" target="_blank" rel="noopener noreferrer"><img src="images/images.png" alt="Kaggle"></a>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
 
 
 
@@ -127,13 +220,6 @@
         
             
         </script>
-
-
-
-
-
-
-
 
 
     </body>
