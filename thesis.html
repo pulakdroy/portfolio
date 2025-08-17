@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
         <title>Thesis Research</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="thesis.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">       
@@ -38,25 +38,62 @@
         </section>
         
 
-        <!---------Services--------->
-        <section class="service">
+        <section class="thesis-section">
+            <h2 class="spotlight-text">Thesis Overview</h2>
+            <div class="thesis-textbox">
+                <p>
+                <!-- Write your thesis summary or details here. Example: -->
+                    The textile industry, which utilizes both natural and
+                    synthetic materials, often encounters defects during production,
+                    leading to substantial financial losses. Traditionally, defect detection 
+                    has relied on manual inspection, which is time-consuming,
+                    inefficient, and prone to human error. This paper provides
+                    an overview as to how to overcome this automatically, using
+                    Machine Vision techniques to be more precise. We analysed
+                    existing object detection models such as Yolov8n, Single Shot
+                    MultiBox Detector (SSD) with VGG16 backbone, Faster R-CNN
+                    with ResNet-50 and a custom model. We also developed
+                    our own hybrid approach which is a two stage pipeline with
+                    stage 1 detecting the defect using yolov8l and the next stage
+                    classifying the defect using EfficinetNet-B0. Our pipeline obtained
+                    a result of precision 84.2, recall 81.9, f1 83.0 We introduced a
+                    custom dataset containing 9075 images containing 4 classes of
+                    fabric defects collected directly from textile factories to mimic
+                    industrial environments where the quality inspection takes place.
+                    Furthermore, we designed a prototype system for industrial
+                    automation integrating our model. Our aim is not only to build
+                    a capable object detection model with good accuracy and lower
+                    computational costs but also to show how this can be implemented
+                    in real life through our prototype system design.
+                </p>
+            </div>
+        </section>
 
-            <div class="row">
-                <div class="service-col">
-                    <h3>Cyber Security</h3>
-                    <P>We can design your website to take your brand into a next level and put you ahead of time.A website can define many things about a brand and so does we put our everything to make that happen.</P>
+        <section class="thesis-resources">
+            <h2 class="spotlight-text">Thesis Resources</h2>
+            <div class="resource-row">
+                <!-- Poster Card -->
+                <div class="resource-card">
+                    <h3>Poster</h3>
+                    <embed src="/Doc/Poster.pdf" type="application/pdf" width="100%" height="300px"/>
+                    <a href="/Doc/Poster.pdf" target="_blank" rel="noopener noreferrer" class="resource-btn">View Full Poster</a>
                 </div>
-                <div class="service-col">
-                    <h3>Data Analytics</h3>
-                    <P>Data is the oil of the digital economy, the more you mine the more you can fuel your brand. With enormous amount of user data developed from your brand’s presence in online and offliine, we can turn them into actionable insights. With proper analytics and reporting generated from Analyzen team you can get an in depth understanding of how your brand is faring as well as reaching the perfect audience who feel more affinity to your brand.</P>
-                    
+                <!-- Journal Card -->
+                <div class="resource-card">
+                    <h3>Thesis Journal</h3>
+                    <embed src="/Doc/P3_THESIS (1).pdf" type="application/pdf" width="100%" height="300px"/>
+                    <a href="/Doc/P3_THESIS (1).pdf" target="_blank" rel="noopener noreferrer" class="resource-btn">Read Thesis Journal</a>
                 </div>
-                <div class="service-col">
-                    <h3>SQA</h3>
-                    <p>We can develope your website to get the most of it.Having a well developed website can put you ahead of others and can grow your brand like nothing else.</p>
+                <!-- IEEE Paper Card -->
+                <div class="resource-card">
+                    <h3>IEEE Format Paper</h3>
+                    <embed src="/Doc/IEEE_Final_Thesis.pdf" type="application/pdf" width="100%" height="300px"/>
+                    <a href="/Doc/IEEE_Final_Thesis.pdf" target="_blank" rel="noopener noreferrer" class="resource-btn">View IEEE Paper</a>
                 </div>
             </div>
         </section>
+
+
         
 
 

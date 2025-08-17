@@ -20,6 +20,35 @@
 */  
 }
 
+.mobile-popup {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #22273c;
+  color: #ffe066;
+  border-radius: 8px;
+  padding: 32px 24px;
+  box-shadow: 0 6px 32px rgba(30,30,40,0.28);
+  z-index: 9999;
+  font-size: 1.06rem;
+  width: 80vw;
+  max-width: 340px;
+  text-align: center;
+}
+.mobile-popup button {
+  margin-top: 18px;
+  background: #ffe066;
+  color: #23243a;
+  border: none;
+  border-radius: 5px;
+  padding: 9px 32px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
 /* @keyframes mymove {
     from {background-color: red;}
     to {background-color: blue;}
