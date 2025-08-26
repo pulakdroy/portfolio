@@ -224,61 +224,7 @@ h3{
 }
 
 
-/*----------Education--------*/
 
-.education {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-    color: #ffffff;
-    scroll-behavior: smooth;
-}
-h1{
-    font-size: 36px;
-    font-weight: 600;
-
-}
-.education .p{
-    color: #D6DBDF;
-    font-size: 8px;
-    font-weight: 100;
-    line-height: 22px;
-    padding: 10px;
-}
-.education .row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-}
-.education .h2{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-    color: #D6DBDF;
-}
-.education .h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-    color: #D6DBDF;
-}
-.education-col{
-    flex-basis: 91%;
-    background: #030303;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
-.education-col:hover{
-    box-shadow: 0 0 80px 0px rgb(183, 199, 60);
-}
-@media(max-width: 700px){
-    .education .row{
-        flex-direction: column;
-    }
-}
 
 
 
@@ -306,4 +252,8 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 24px;
+}
+
+.contact-col:hover{
+    box-shadow: 0 0 80px 0px rgb(183, 199, 60);
 }
