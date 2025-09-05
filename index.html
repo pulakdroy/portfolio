@@ -197,6 +197,19 @@
             <br>
             <br>
 
+            <div class="contact-section">
+                
+                <form id="emailjs-form" class="contact-form">
+                    <input type="text" name="user_name" placeholder="Your Name" required>
+                    <input type="email" name="user_email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div id="form-success" style="display: none;">Thank you! Your message has been sent.</div>
+                <!-- Social icons below here -->
+            </div>
+
+
             
             <div class="row">
                 <div class="contact-col">
@@ -220,7 +233,9 @@
                 </div>
 
             </div>
-
+            
+                
+            
 
 
         </section>
@@ -261,6 +276,32 @@
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
                 document.getElementById('mobile-warning').style.display = 'block';
             }
+        </script>
+
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+            <script type="text/javascript">
+            (function(){
+                emailjs.init("21HzpBYBcP-Xn6rk5");
+            })();
+        </script>
+
+        <script type="text/javascript">
+            // Replace these with your EmailJS service/template IDs
+            const serviceID = "service_z2mmqbi";
+            const templateID = "template_4i171p8";
+
+            document.getElementById('emailjs-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            emailjs.sendForm(serviceID, templateID, this)
+                .then(function() {
+                document.getElementById('form-success').style.display = "block";
+                document.getElementById('emailjs-form').reset();
+                }, function(error) {
+                alert("FAILED... " + JSON.stringify(error));
+                });
+            });
         </script>
 
 
