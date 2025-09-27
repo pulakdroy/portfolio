@@ -427,7 +427,7 @@ h1{
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    color: #fafafa;
+    color: #ffffff;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -440,12 +440,12 @@ h1{
 }
 .aboutme-content p {
     margin-bottom: 8px;
-    color: #c9c9d4;
+    color: #ffffff;
     font-size: 1.09rem;
 }
 .aboutme-content ul {
     list-style: disc inside;
-    color: #e0e0e0;
+    color: #ffffff;
     margin-bottom: 10px;
     padding-left: 12px;
 }
